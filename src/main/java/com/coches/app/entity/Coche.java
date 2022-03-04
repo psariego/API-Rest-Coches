@@ -2,6 +2,7 @@ package com.coches.app.entity;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -33,6 +34,8 @@ public class Coche implements Serializable{
 	@JsonIgnoreProperties({"hibernateLazyInitializer","handler"})
 	private Modelo modelo;
 	private String color;
+	
+	@Column(unique = true)
 	private String matricula;
 	private int cilindrada;
 	private int velocidad;

@@ -5,7 +5,6 @@ import org.springframework.stereotype.Repository;
 
 import com.coches.app.entity.Usuario;
 
-
 @Repository
 public interface UsuarioDao extends CrudRepository<Usuario, Long>{
 
