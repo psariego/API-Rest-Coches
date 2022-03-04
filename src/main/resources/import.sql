@@ -13,8 +13,8 @@ INSERT INTO coches(marca_id, modelo_id, color, matricula, cilindrada, velocidad)
 INSERT INTO coches(marca_id, modelo_id, color, matricula, cilindrada, velocidad) VALUES(3, 2, 'Amarillo', '3458GFC', 1500, 220);
 INSERT INTO coches(marca_id, modelo_id, color, matricula, cilindrada, velocidad) VALUES(1, 4, 'Rojo', '4398KJI', 3000, 300);
 
-INSERT INTO usuarios(username, password, enabled) VALUES('psariego', '', 1);
-INSERT INTO usuarios(username, password, enabled) VALUES('admin', '', 1);
+INSERT INTO usuarios(username, password, enabled) VALUES('psariego', '$2a$10$bcX/BZ9pF55R0YYzp4Mr8OlMTQiVWHnrCS.B7bCEE8WqtIRiEk2eq', 1);
+INSERT INTO usuarios(username, password, enabled) VALUES('admin', '$2a$10$xtAK4b1Iuu/1y0Fh5O7/huVql.sUR4Q1elRIK9aAaKfF0As6hkqUG', 1);
 
 INSERT INTO roles(nombre) VALUES('ROLE_USER');
 INSERT INTO roles(nombre) VALUES('ROLE_ADMIN');
